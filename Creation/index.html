@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent"></div>
+    <script>
+        let div1=document.createElement("div")
+        div1.innerHTML="I am a box1"
+        let div2=document.createElement("div")
+        div2.innerHTML="I am a box2"
+        let div3=document.createElement("div")
+        div3.innerHTML="I am a box3"
+        let parent=document.querySelector("#parent")
+        parent.append(div1)
+        parent.append(div2)
+        parent.append(div3)
+    </script>
+</body>
+</html>
